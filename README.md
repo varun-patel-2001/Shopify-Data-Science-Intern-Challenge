@@ -16,18 +16,18 @@ print(data['order_amount'].sum()/data['total_items'].sum())
 ```
 1. Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
         
-       The average of the order amounts was being calculated, this does not reflect the average order value because 
-       it is not taking into account the number of items bought. A better way would be to include total number of 
-       items into the calculation.
+    The average of the order amounts was being calculated, this does not reflect the average order value because 
+    it is not taking into account the number of items bought. A better way would be to include total number of 
+    items into the calculation.
 
 2. What metric would you report for this dataset?
 
-       I would return the sum of all the order amounts over the sum of total number of items, this will give the 
-       average order value.
+    I would return the sum of all the order amounts over the sum of total number of items, this will give the 
+    average order value.
 
 3. What is its value?
    
-       The value for AOV is roughly $357.92.
+    The value for AOV is roughly $357.92.
 
 ### Question 2: For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
 
